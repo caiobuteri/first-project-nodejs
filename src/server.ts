@@ -1,9 +1,11 @@
 import express from "express";
 import swaggerUi from "swagger-ui-express";
+import "reflect-metadata";
 
 import { router } from "./Routes";
 
 import "./database";
+import "./shared/container";
 
 import swaggerFile from "./swagger.json";
 
